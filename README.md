@@ -8,6 +8,17 @@
 g++ -std=c++20 -O3 helloworld.cpp -o ./build-linux/helloworld -DFMT_USE_NONTYPE_TEMPLATE_PARAMETERS=1
 ```
 
+, or better use the fmt library:
+
+
+```bash
+sudo apt install libfmt-dev
+```
+
+```bash
+g++ -std=c++20 -O3 helloworld.cpp -o ./build-linux/helloworld -lfmt
+```
+
 ## C++ 23 Features
 
 ### Clang 19
