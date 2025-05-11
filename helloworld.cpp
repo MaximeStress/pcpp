@@ -1,8 +1,8 @@
-import std;
+#include <iostream>
+#include <format>
 
 int main() {
-    std::println("Hello, World!");
-    std::println("There are {} ways I love you.", 219);
-    std::println("{} + {} = {}", 2, 4, 2+4);
+    std::cout << "There are " << 219 << " ways I love you." << std::endl;
+    std::cout << std::format("There are {} ways I love you.", 219) << std::endl;
     return 0;
 }
