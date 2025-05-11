@@ -1,5 +1,13 @@
 # Professional C++ Code
 
+## C++ 20 Features
+
+### GCC 14
+
+```bash
+g++ -std=c++20 -O3 helloworld.cpp -o ./build-linux/helloworld -DFMT_USE_NONTYPE_TEMPLATE_PARAMETERS=1
+```
+
 ## C++ 23 Features
 
 ### Clang 19
