@@ -1,7 +1,7 @@
-#include <iostream>
-#include <fmt/core.h>
+import std;
 
 int main() {
-    std::cout << fmt::format("There are {} ways I love you.", 219) << std::endl;
-    return 0;
+    int value;
+    std::cin >> value;
+    std::println(std::cerr, "Error: {}", value);
 }
